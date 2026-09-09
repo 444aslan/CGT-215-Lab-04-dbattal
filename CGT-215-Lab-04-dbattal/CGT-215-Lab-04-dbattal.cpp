@@ -90,7 +90,6 @@ int main() {
 	do {
 		printMenu();
 		cin >> choice;
-		// Quit if user chooses to exit (or any invalid choice)
 		if (choice > 3 || choice < 1) {
 			return 0;
 		}
