@@ -70,10 +70,16 @@ void geometric() {
 	int a = A;
 	int m = C;
 	int geom = 0;
+	cout << A;
 
+	while (m > 0) {
+		--m;
+		A = A * pow(r, m);
+		cout << " + " << A;
+		geom += A;
+	}
 
-
-
+	cout << " = " << geom << endl;
 }
 
 int main() {

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\CGT-215-Lab-04-dbattal.obj",
+            "outputs": [
+                "x64\\Debug\\CGT-215-Lab-04-dbattal.cpp.obj.dt.module.json",
+                "x64\\Debug\\CGT-215-Lab-04-dbattal.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
