@@ -15,7 +15,7 @@ void factorial() {
 	cout << "Enter a number: ";
 	cin >> A;
 
-	if (A <= 0) {
+	while (A <= 0) {
 		cout << "Nice try. Enter a POSITIVE number. : ";
 		cin >> A;
 	}
@@ -56,8 +56,26 @@ void arithmetic() {
 
 }
 void geometric() {
-	
+	int A;
+	int B;
+	int C;
+	cout << "Enter a number to start at: ";
+	cin >> A;
+	cout << "Enter a number to multiply by each time: ";
+	cin >> B;
+	cout << "Enter the number of elements in the series: ";
+	cin >> C;
+
+	int r = B;
+	int a = A;
+	int m = C;
+	int geom = 0;
+
+
+
+
 }
+
 int main() {
 	int choice;
 	char again;
