@@ -56,7 +56,7 @@ void arithmetic() {
 
 }
 void geometric() {
-	// I recommend writing your geometric series code here
+	
 }
 int main() {
 	int choice;
