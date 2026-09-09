@@ -56,27 +56,29 @@ void arithmetic() {
 
 }
 void geometric() {
-	int A;
-	int B;
-	int C;
+	int a;
+	int r;
+	int m;
 	cout << "Enter a number to start at: ";
-	cin >> A;
+	cin >> a;
 	cout << "Enter a number to multiply by each time: ";
-	cin >> B;
+	cin >> r;
 	cout << "Enter the number of elements in the series: ";
-	cin >> C;
+	cin >> m;
 
-	int r = B;
-	int a = A;
-	int m = C;
+	while (m <= 0) {
+		cout << "Try a positive value. : ";
+		cin >> m;
+	}
+
 	int geom = 0;
-	cout << A;
 
-	while (m > 0) {
-		--m;
-		A = A * pow(r, m);
-		cout << " + " << A;
-		geom += A;
+	for (int i = 0; i < m; i++) {
+		int boom = a * static_cast<int>(pow(r, i));
+		cout << boom;
+		if (i < m - 1)
+			cout << " + ";
+		geom += boom;
 	}
 
 	cout << " = " << geom << endl;
