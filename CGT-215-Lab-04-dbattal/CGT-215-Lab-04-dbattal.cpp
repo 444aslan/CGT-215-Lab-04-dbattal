@@ -14,6 +14,25 @@ void printMenu() {
 }
 void factorial() {
 	// I recommend writing your factorial code here
+	int i = 1;
+	int A;
+	cout << "Enter a number: ";
+	cin >> A;
+
+	if (A <= 0) {
+		cout << "Nice try. Enter a POSITIVE number. : ";
+		cin >> A;
+	}
+
+	int fact = A;
+	cout << A << "!= " << A << "*";
+
+	while (i != A) {
+		fact = fact * (A - i); 
+		i++;
+		cout << (A - i) << "*" ;
+	}
+	cout << " = " << fact << endl;
 }
 void arithmetic() {
 	// I recommend writing your arithmetic series code here

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CGT-215-Lab-04-dbattal/CGT-215-Lab-04-dbattal.vcxproj" />
+  <Project Path="CGT-215-Lab-04-dbattal/CGT-215-Lab-04-dbattal.vcxproj" Id="6267b949-82bc-446f-bc2a-c62209c7e676" />
 </Solution>

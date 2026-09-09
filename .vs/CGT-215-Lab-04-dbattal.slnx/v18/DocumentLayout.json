@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dbattal\\source\\repos\\CGT-215-Lab-04-dbattal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6267B949-82BC-446F-BC2A-C62209C7E676}|CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.vcxproj|C:\\Users\\dbattal\\source\\repos\\CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6267B949-82BC-446F-BC2A-C62209C7E676}|CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.vcxproj|solutionrelative:CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CGT-215-Lab-04-dbattal.cpp",
+              "DocumentMoniker": "C:\\Users\\dbattal\\source\\repos\\CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.cpp",
+              "RelativeDocumentMoniker": "CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.cpp",
+              "ToolTip": "C:\\Users\\dbattal\\source\\repos\\CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.cpp*",
+              "RelativeToolTip": "CGT-215-Lab-04-dbattal\\CGT-215-Lab-04-dbattal.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-09T17:26:58.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
