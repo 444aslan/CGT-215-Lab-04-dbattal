@@ -1,9 +1,6 @@
-// CGT-215-Lab-04-dbattal.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 using namespace std;
-// Print out the menu of choices for the user to select from
 void printMenu() {
 	cout << "Please Select which operation to perform:" << endl;
 	cout << "\t1. Factorial" << endl;
@@ -24,17 +21,39 @@ void factorial() {
 	}
 
 	int fact = A;
-	cout << A << "!= " << A << "*";
+	cout << A << "!= " << A;
 
 	while (i != A) {
 		fact = fact * (A - i); 
-		cout << (A - i) << "*" ;
+		cout  << " * " << (A - i);
 		i++;
 	}
 	cout << " = " << fact << endl;
 }
 void arithmetic() {
-	// I recommend writing your arithmetic series code here
+	int A;
+	int B;
+	int C;
+	cout << "Enter a number to start at: ";
+	cin >> A;
+	cout << "Enter a number to add each time: ";
+	cin >> B;
+	cout << "Enter the number of elements in the series: ";
+	cin >> C;
+
+	int arit = A;
+	int diff = B;
+	int counter = C;
+	cout << A;
+
+	while (counter > 1) {
+		--counter;
+		A = A + B;
+		cout  << " + " << A;
+		arit += A;
+	}
+	cout << " = " << arit << endl; 
+
 }
 void geometric() {
 	// I recommend writing your geometric series code here
