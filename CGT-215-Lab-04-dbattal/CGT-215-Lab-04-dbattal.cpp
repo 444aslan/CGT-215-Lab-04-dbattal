@@ -13,7 +13,6 @@ void printMenu() {
 	cout << "Your Selection: ";
 }
 void factorial() {
-	// I recommend writing your factorial code here
 	int i = 1;
 	int A;
 	cout << "Enter a number: ";
@@ -29,8 +28,8 @@ void factorial() {
 
 	while (i != A) {
 		fact = fact * (A - i); 
-		i++;
 		cout << (A - i) << "*" ;
+		i++;
 	}
 	cout << " = " << fact << endl;
 }
